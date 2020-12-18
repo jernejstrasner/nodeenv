@@ -526,6 +526,7 @@ def get_node_bin_url(version):
         'aarch64': 'arm64',
         'ppc64le': 'ppc64le',   # Power PC
         's390x': 's390x',       # IBM S390x
+        'arm64': 'arm64',       # Apple ARM
     }
     sysinfo = {
         'system': platform.system().lower(),
